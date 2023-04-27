@@ -2,7 +2,7 @@ import { useState } from 'react';
 import openai from 'openai';
 
 
-const apiKey = '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'; // insert your OpenAI API key
+const apiKey = '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'; // insert your OpenAI API key
 const prompt = 'Hi, I need a recipe for dinner tonight.'; // initial prompt for the chatbot
 const chatbot = new openai.Completion({ apiKey }); // create a new instance of the chatbot
 
